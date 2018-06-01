@@ -55,13 +55,42 @@ fn main() {
     let z = 'ℤ';
     let heart_eyed_cat = '😻';
     println!("{}", heart_eyed_cat);
-
+    
     // Compound Types
     
     // Compound types can group multiple values into one type
     // Tuples (x, y, z)
-    // Arrays [1, 2, 3]
 
-    
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    println!("{:?}", tup);
+
+    // Destructuring 
+    let (x, y, z) = tup;
+    println!("The value of y is: {}", y);
+
+
+    // Indexing tuple
+    let five_hundred = tup.0;
+    let six_point_four = tup.1;
+    let one = tup.2;
+
+    // Arrays [1, 2, 3]
+    // Immutable, does not grow or shrink, allocates on the stack
+    // Use it when the data is not changing, else use vectors
+
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+
+    let a = [1, 2, 3, 4, 5];
+
+    // Indexing array
+    let first = a[0];
+    let second = a[1];
+
+    println!("{}", second);
+
+    let x = a[10];
+
+    println!("Error : {}", x);
 
 }
