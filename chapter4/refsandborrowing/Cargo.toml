@@ -1,0 +1,6 @@
+[package]
+name = "refsandborrowing"
+version = "0.1.0"
+authors = ["Imre Secodi <imre.secodi@gmail.com>"]
+
+[dependencies]
