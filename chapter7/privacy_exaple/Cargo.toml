@@ -1,0 +1,6 @@
+[package]
+name = "privacy_exaple"
+version = "0.1.0"
+authors = ["Szecsődi Imre <imre.secodi@gmail.com>"]
+
+[dependencies]
