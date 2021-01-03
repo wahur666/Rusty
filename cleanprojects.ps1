@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Directory | Where-Object {$_.FullName -match 'target'} | Remove-Item -Recurse
