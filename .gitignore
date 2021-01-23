@@ -1,14 +1,4 @@
 .history/
 .vscode/
-chapter11/adder/.idea/
-chapter11/.idea/
-chapter12/minigrep/.idea/
-chapter13/iteratorexample/.idea/
-chapter13/clousureexample/.idea/
-chapter14/adders/.idea/
-chapter15/boxexample/.idea/
-chapter15/derefexample/.idea/
-chapter15/rcexample/.idea/
-chapter15/dropexample/.idea/
-chapter15/weakexample/.idea/
-chapter15/refcellexample/.idea/
+**/target/**
+**/.idea/
